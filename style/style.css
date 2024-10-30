@@ -1,0 +1,32 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'PTSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/PTSans-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'PTSans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/PTSans-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Exo2';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Exo2-SemiBold.woff2') format('woff2');
+}
+p {
+    font-family: 'PTSans', sans-serif;
+}
+h1 , h2 , h3 , h4 , strong , a {
+    font-family: 'Exo2' , sans-serif;
+}
+.hero-bg{
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
