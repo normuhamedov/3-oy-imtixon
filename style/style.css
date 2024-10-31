@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-display: swap; 
     font-family: 'PTSans';
@@ -30,3 +37,7 @@ h1 , h2 , h3 , h4 , strong , a {
     background-position: center;
     background-size: 100%;
 }
+
+/* Autoprefixed qildim lekin hechnima o'zgarmadi! */
+/* Tailwindda bolgani uchun Normolize ulamadim */
+/* Css da bor yog'gi 39 qator kod bolgani uchun minify qilmadim!! */
